@@ -21,7 +21,11 @@ nav a {
 }
 
 #brand-text {
-    font-size: 1em;
+    font-size: 1.15em;
+}
+
+#brand-text:hover {
+    color: #ffffff88;
 }
 
 .nav-left, .nav-right {
@@ -48,13 +52,17 @@ nav a {
     color: #ce656b;
     font-style: italic;
     font-size: 3.5em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .subText {
     color: #fff;
     font-size: 1.25em;;
     margin-bottom: 60px;
+}
+
+.grid-btn:hover, .list-btn:hover {
+    cursor: pointer;
 }
 
 .categories {
@@ -101,6 +109,10 @@ hr {
     padding: 15px 15px;
 }
 
+.article:hover {
+    cursor: pointer;
+}
+
 img {
     width: 100%;
 }
@@ -138,14 +150,16 @@ img {
     justify-content: center;
     color: #d9d8da;
     gap: 15px;
-
 }
 
 .page-number li {
     list-style: none;
     font-style: italic;
     margin-top: 20px;
-    
+}
+
+.page-number li:hover {
+    cursor: pointer;
 }
 
 .active {
@@ -171,6 +185,7 @@ footer hr {
 footer {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .creator , .social-media {
@@ -184,8 +199,8 @@ footer {
 }
 
 .creator p {
-    font-size: 1rem;
-    padding-top: 5px;
+    padding-top: 2px;
+    font-size: 1.15rem;
 }
 
 .creator p:nth-child(2) {
@@ -193,7 +208,7 @@ footer {
     margin-left: 10px;
     padding: 5px;
     border: 1px solid #4599e1;
-    border-radius: 10px;
+    border-radius: 3px;
     background-color: #4599e1;
     font-size: 0.8rem;
 }
@@ -204,12 +219,16 @@ footer {
     justify-content: end;
 }
 
+.social-media:hover {
+    cursor: pointer;
+}
+
 .social-media p {
     padding: 5px;
     border: 1px solid #4599e1;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 3px;
     background-color: #4599e1;
     font-size: 0.8rem;
-    width: 125px;
+    width: 140px;
 }
