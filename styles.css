@@ -120,6 +120,7 @@ img {
 .article h1 {
     font-size: 1rem;
     padding: 10px 0px;
+    height: 55px;
 }
 
 .article p , li {
@@ -129,6 +130,7 @@ img {
 
 .article ul {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
